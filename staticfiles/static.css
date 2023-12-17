@@ -1,0 +1,37 @@
+#profile-photo {
+    height: 550px;
+    width: 550px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  header {
+    text-align: center;
+  }
+  .border_nav {
+    text-align: center;
+  }
+  section {
+    margin-top: 1px;
+  }
+  aside {
+    background-color: red;
+    text-align: center;
+    margin-top: 1px;
+    height: 500px;
+    line-height: 500px;
+    width: 30%;
+    float: left;
+  }
+  footer {
+    margin-top: 1px;
+
+  }
+  .experience__company, .educations_institutions{
+    color: green;
+  }
+  table {
+    width: 100%;
+  }

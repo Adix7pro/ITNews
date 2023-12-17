@@ -1,0 +1,127 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Bosh sahifa{% endblock title %}
+
+{% block content %}
+<html>
+<head>
+    <link rel="stylesheet" href="{% static 'static.css' %}">
+</head>
+</html>
+    <br/>
+    <div class="jumbotron">
+        <img
+        src="images/images/logo.jpg"
+        alt="bu yerda rasm bor edi"
+        id="profile-photo"
+        />
+        <h1 class="display-4">Assalom alaykum!</h1>
+        <p class="lead">Adham Choriyevning shaxsiy blogiga xush kelibsiz.</p>
+        <hr class="my-4">
+        <p>Bu yerda siz dasturlash va dasturchilarga oid so'nggi yangiliklardan xabardor bo'lib turasiz.</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="{% url 'article_list' %}" role="button">Postlarni ko'rish</a>
+        </p>
+    <header>
+      <p>
+        <b>Linkedin</b>
+        <a
+          href="https://www.linkedin.com/in/adham-choriyev-a43959288/"
+          target="_blank"
+        >
+          https://www.linkedin.com/in/adham-choriyev-a43959288/
+        </a>
+      </p>
+      <p><b>E-mail:</b> adhamchoriyev234@gmail.com</p>
+    </header>
+    <hr>
+    <section>
+        <h2>Education</h2>
+        <div class="education">
+            <h3 class="educations_institutions">Bacalavr in Telecommunication Technology (Sep 2022-May 2026)</h3>
+            <p>
+                Tashkent Informational Technology Universitet
+            </p>
+            <p>
+                <i>
+                    Total GPA : #
+                </i>
+            </p>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Technical Scills
+                    </th>
+                    <th>
+                        Personal Scills
+                    </th>
+                    <th>
+                        Language Scills
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>
+                                Python Core
+                            </li>
+                            <li>
+                                Python OOP
+                            </li>
+                            <li>
+                                Django
+                            </li>
+                            <li>
+                                REST API
+                            </li>
+                            <li>
+                                HTML
+                            </li>
+                            <li>
+                                CSS
+                            </li>
+                            <li>
+                                Java Script
+                            </li>
+                            <li>
+                                Bootstrap
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                Discipline
+                            </li>
+                            <li>
+                                Humanity
+                            </li>
+                        </ul>
+                    <td>
+                    <ul>
+                        <li>
+                            Uzbek
+                        </li>
+                        <li>
+                            English (A1)
+                        </li>
+                    </ul>
+                </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <hr>
+    <footer>
+        <a href="./contact.html"><b>Contact me</b></a>
+    </footer>
+        </div>
+{% endblock content %}
